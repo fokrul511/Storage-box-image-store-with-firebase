@@ -1,5 +1,4 @@
-import 'package:firebase_storage_apps/screen/home_screen.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:firebase_storage_apps/screen/sing_in_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         ),
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const SingInWithGoogle(),
     );
   }
 }
